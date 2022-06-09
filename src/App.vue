@@ -1,15 +1,19 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <PoemPage msg="Welcome to Your Vue.js App"/>
+  <IntroSection/>
+  <PoemPage id="poem"/>
 </template>
 
 <script>
+
+import IntroSection from "./components/IntroSection.vue"
 import PoemPage from './components/PoemPage.vue'
 
 export default {
   name: 'App',
   components: {
-    PoemPage
+    PoemPage,
+    IntroSection
   }
 }
 </script>
@@ -24,17 +28,25 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   display: flex;
   flex-direction: column;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
   min-height: 100vh;
+  /* overflow: visible; */
   /*the above is*/
+  /* transition: all 1s; */
+  /* max-width: 100%; */
+  /* overflow-x: hidden; */
 }
 
 body::-webkit-scrollbar {
     display: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 </style>

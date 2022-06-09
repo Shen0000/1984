@@ -50,6 +50,11 @@ a {
   color: #42b983;
 } */
 
+.main {
+  margin: 10vh;
+  padding-top: 5vh;
+}
+
 .main .background-image{
   /* background: rgb(0, 0, 0); */
   z-index: -1;
