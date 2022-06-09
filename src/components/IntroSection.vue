@@ -49,11 +49,11 @@ a {
     font-family: "Montserrat";
     background: linear-gradient(rgb(255, 255, 255), rgb(132, 132, 132));
     height: auto;
-    width: calc(100vw + 30px);
+    width: calc(97vw);
     height: 105vh;
     /* border: 2px solid#010314; */
     /* border-radius: 15px;   */
-    transform: translate(-15px, -15px);
+    transform: translate(-7px, -10px);
     /* position: absolute; */
     padding: 20px;
 }
