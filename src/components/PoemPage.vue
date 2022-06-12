@@ -1,6 +1,6 @@
 <template>
   <header class="main">
-    <div class="background-image"></div>
+    <div class="background-image" :style="{'height': 'calc( 25vh + ' + 3*length + 'vw )'}"></div>
     <div class="poem">
       <h1 class="title"><strong>1984</strong></h1>
       <br>
@@ -16,6 +16,7 @@
 
 <script>
 import PoemJSON from "../json/poem.json"
+import SizeJSON from "../json/size.json"
 
 export default {
   name: 'PoemPage',
@@ -24,7 +25,8 @@ export default {
   },
   data() {
       return {
-          poem: PoemJSON
+          poem: PoemJSON,
+          length: SizeJSON
       }
   }
 }
@@ -62,7 +64,7 @@ a {
   left: 0;
   top: 0;
   width: 100%;
-  height: 1000%;
+  /* height: 500vh; */
   background: url(http://www.wakingtimes.com/wp-content/uploads/2014/08/big-brother-spy-eye-surveillance.png);
   background-size: cover;
   background-attachment: fixed;
@@ -73,7 +75,7 @@ a {
 }
 
 .poem {
-  font-size: 1rem;
+  font-size: 1vw;
   font-family: "Montserrat";
   line-height: 1.2em;
   font-weight: 400;
@@ -92,7 +94,7 @@ a {
 }
 
 .title {
-  font-size: 4rem;
+  font-size: 5vw;
   color: rgb(7, 0, 63);
   text-shadow:
     -1px -1px 0 #000,
@@ -103,7 +105,7 @@ a {
 }
 
 .author {
-  font-size: 2.2rem;
+  font-size: 3vw;
   color: rgb(7, 0, 63);
   text-shadow:
     /* -1px -1px 0 #000,

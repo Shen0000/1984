@@ -9,10 +9,10 @@
         As a result, I decided to write a poem drawing from the events that transpired in Airstrip One.
     </h2>
     <h2>
-        The goal of this poem is to capture the feeling I got during and after reading 1984, and to transport 
+        The goal of this poem is to capture the feeling I experienced during and after reading 1984, and to
     </h2>
     <h2>
-        the reader into this dystopian world so they can better understand the horrors of such a society.
+        transport the reader into this dystopian world so they can better understand the horrors of such a society.
     </h2>
     <br><br><br><br><br><br>
     <button class="scroll-button" onclick="window.location.href='/#poem'"><span>Read Poem</span></button>
@@ -45,17 +45,22 @@ a {
   color: #42b983;
 } */
 
+h1 {
+  font-size: 2.25vw;
+}
+
 .intro {
     font-family: "Montserrat";
     background: linear-gradient(rgb(255, 255, 255), rgb(132, 132, 132));
-    height: auto;
-    width: calc(97vw);
+    /* height: auto; */
+    width: 100vw;
     height: 105vh;
     /* border: 2px solid#010314; */
     /* border-radius: 15px;   */
-    transform: translate(-7px, -10px);
+    transform: translate(-1vw, -2vh);
     /* position: absolute; */
     padding: 20px;
+    font-size: 1.25vw;
 }
 
 .scroll-button {
