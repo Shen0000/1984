@@ -2,7 +2,7 @@
   <header class="main">
     <div class="background-image" :style="{'height': 'calc( 25vh + ' + 3*length + 'vw )'}"></div>
     <div class="poem">
-      <h1 class="title"><strong>1984</strong></h1>
+      <h1 class="title"><strong>The Last Man</strong></h1>
       <br>
       <h2 class="author"><strong>By: Brendan Shen</strong></h2>
       <br><br>
@@ -90,7 +90,7 @@ a {
   border-radius: 25px;
   /* text-transform: lowercase; */
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
 }
 
 .title {
