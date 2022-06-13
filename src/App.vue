@@ -6,7 +6,7 @@
     <h1>Check out the code!</h1>
     <ul class="social-list">  
         <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com/shen0000" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+          <a class="social-list__link" href="https://github.com/Shen0000/1984" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
         </li>
     </ul>
   </footer>
@@ -63,6 +63,7 @@ footer {
   /* padding: 3vw; */
   padding-top: 2vh;
   padding-bottom: 2vh;
+  /* border: 1px solid black; */
   height: 15%;
   width: 102%;
   /* transition: all 2s; */
