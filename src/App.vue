@@ -59,7 +59,7 @@ html {
 }
 
 footer {
-	background: linear-gradient(rgb(71, 71, 71), rgb(255, 255, 255));
+	background: linear-gradient(rgb(132, 132, 132), rgb(255, 255, 255));
   /* padding: 3vw; */
   padding-top: 2vh;
   padding-bottom: 2vh;
