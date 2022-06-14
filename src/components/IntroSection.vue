@@ -3,7 +3,7 @@
     <h1><strong>Welcome!</strong></h1>
     <br><br><br><br><br><br>
     <h2>
-        After reading 1984, I was heavily inspired by the themes and ideas brought forth by George Orwell.
+        After reading 1984, I was very inspired by the themes and ideas brought forth by George Orwell.
     </h2>
     <h2>
         As a result, I decided to write a poem drawing from the events that transpired in Airstrip One.
